@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html,body {
+	font-family:Verdana,sans-serif;
+	font-size:15px;
+	line-height:1.5
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Arial,sans-serif
+}
+h1 {font-size:36px}
+h2 {font-size:30px}
+h3 {font-size:24px}
+h4 {font-size:20px}
+h5 {font-size:18px} 
+h6 {font-size:16px}
+
+body {
+	background-color: #ddd;
+}
+header, footer {
+	background-color: #333;
+}
+header>h1 {
+	display: none;
+}
+#logo {
+	height: 50px;
+	margin: 0 0 10px 30px;
+}
+nav {
+	float: right;
+	height: 60px;
+	line-height: 60px;
+}
+nav ul {
+	height: 60px;
+	line-height: 60px;
+}
+nav li {
+	float: left;
+	margin: 0 1em;
+	list-style-type: disc;
+}
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+nav li:last-child>a{
+	pointer-events: none;
+	color: #ccc;
+}
+article, aside {
+	margin: 15px 15px 15px 5px;
+	background-color: #fff;
+	padding: 25px 20px;
+}
+
+figure {
+	border: 1px solid #eee;
+	width: 150px;
+	text-align: center;
+}
+
+figure img {
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+
+article>ol {
+	list-style-type: decimal;
+	margin-left: 20px;
+}
+
+#tab1 {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr,td {
+	border: 1px solid #ddd;
+}
+
+#tab1 thead {
+	background-color: #333;
+	text-align: left;
+}
+
+#tab1 tfoot {
+	background-color: #ddd;
+}
+
+label {
+	display: inline-block;
+	width: 500px;
+	float: left;
+	clear: left;
+	text-align: right;
+}
+
+input, select {
+	float: left;
+	display: inline-block;
+}
+
+.info {
+	clear: left;
+	margin-left: 500px;
+}
+
+form span {
+	float: left;
+}
+
+textarea {
+	width: 500px;
+	height: 150px;
+	float: left;
+}
+
+input[type="submit"] {
+	width: 100%;
+	background-color: blue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	font-size: 1.5em;
+	color: white;
+	border-radius: 10px;
+}
+
+
+footer {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+
+footer p {
+	height: 60px;
+	line-height: 60px;
+	color: white;
+}
+
+.clearfix{overflow:auto;_height:1%}
